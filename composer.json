@@ -1,0 +1,13 @@
+{
+    "name": "masrawy/php_design_pattern",
+    "autoload": {
+        "psr-4": {
+            "PhpDesignPattern\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "sheerien",
+        "email": "freemebabaj@gmail.com"
+    }],
+    "require": {}
+}
