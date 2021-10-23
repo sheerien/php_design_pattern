@@ -3,6 +3,7 @@ namespace PhpDesignPattern\Abstraction;
 
 class SQLIDB extends DB
 {
+	public $conn;
 
 	/**
 	 *
