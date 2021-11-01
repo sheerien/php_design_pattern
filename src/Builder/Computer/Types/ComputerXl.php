@@ -1,10 +1,11 @@
 <?php
 namespace PhpDesignPattern\Builder\Computer\Types;
 
-use PhpDesignPattern\Builder\CoolingSystem;
-use PhpDesignPattern\Builder\Types\contracts\ICoolingSystem;
-use PhpDesignPattern\Builder\Ups;
-use PhpDesignPattern\Builder\Types\contracts\IPower;
+
+use PhpDesignPattern\Builder\Computer\CoolingSystem;
+use PhpDesignPattern\Builder\Computer\Types\contracts\ICoolingSystem;
+use PhpDesignPattern\Builder\Computer\Types\contracts\IPower;
+use PhpDesignPattern\Builder\Computer\Ups;
 
 class ComputerXl extends Computer implements ICoolingSystem, IPower
 {

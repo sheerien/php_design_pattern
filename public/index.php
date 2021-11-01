@@ -7,6 +7,7 @@ use PhpDesignPattern\Abstraction\SQLIDB;
 use PhpDesignPattern\factory\DbTypes\PdoType;
 use PhpDesignPattern\factory\DbTypes\SqliType;
 use PhpDesignPattern\Builder\Computer\Builders\ComputerCsBuilder;
+use PhpDesignPattern\Builder\Computer\Builders\ComputerXlBuilder;
 
 
 require_once __DIR__ . "/../vendor/autoload.php";
@@ -33,4 +34,8 @@ $director = new Director(new ComputerCsBuilder);
 
 $computer = $director->makeComputer();
 
+// var_dump($computer);
+
+$director->changeBuilder(new ComputerXlBuilder);
+$computer = $director->makeComputer();
 var_dump($computer);
