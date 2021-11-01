@@ -1,0 +1,16 @@
+Computer
+    -Monitor
+    -Cooling System
+    -UPS
+    -Mother Board
+        CPU
+        RAM
+        GPU
+        SOCKETS
+        NETWORK CARD
+        Disk
+    -Keyboard
+    -Mouse
+#1 SimpleComputerMachine(Monitor+Motherboard(CPU+RAM+DISK+NETWORK CARD)+Keyboard+Mouse)
+#2 ComputerWithCoolingSystem(#1 + CoolingSystem)
+#3 ComputerWithCoolingSystemAndPowerBackup(#2 + UPS)
